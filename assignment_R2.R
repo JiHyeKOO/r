@@ -1,5 +1,5 @@
-USArrests
-str(USArrests)
+USArrests #USArrests데이터셋 불러오기
+str(USArrests) #데이터의 개요 확인
 
 USArrests["Indiana","UrbanPop"] #Indiana주의 UrbanPop값 추출
 
