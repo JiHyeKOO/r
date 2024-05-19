@@ -64,6 +64,7 @@ boxplot(running50~sex, data = ex1)
 title("boxplot of 50m running")
 
 # (3) 신장과 50m달리기의 산점도를 성별로 구분하여 그리고 설명하시오.
+par(mfrow=c(1,1))
 plot(ex1$height, ex1$running50, type = "n")
 points(ex1$height[ex1$sex=="1"],ex1$running50[ex1$sex=="1"],pch=17, col=4)
 points(ex1$height[ex1$sex=="2"],ex1$running50[ex1$sex=="2"],pch=19, col=2)
