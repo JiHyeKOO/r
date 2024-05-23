@@ -1,0 +1,21 @@
+> getwd()
+[1] "C:/data/final"
+> summary(state.x77)
+   Population        Income       Illiteracy       Life Exp    
+ Min.   :  365   Min.   :3098   Min.   :0.500   Min.   :67.96  
+ 1st Qu.: 1080   1st Qu.:3993   1st Qu.:0.625   1st Qu.:70.12  
+ Median : 2838   Median :4519   Median :0.950   Median :70.67  
+ Mean   : 4246   Mean   :4436   Mean   :1.170   Mean   :70.88  
+ 3rd Qu.: 4968   3rd Qu.:4814   3rd Qu.:1.575   3rd Qu.:71.89  
+ Max.   :21198   Max.   :6315   Max.   :2.800   Max.   :73.60  
+     Murder          HS Grad          Frost             Area       
+ Min.   : 1.400   Min.   :37.80   Min.   :  0.00   Min.   :  1049  
+ 1st Qu.: 4.350   1st Qu.:48.05   1st Qu.: 66.25   1st Qu.: 36985  
+ Median : 6.850   Median :53.25   Median :114.50   Median : 54277  
+ Mean   : 7.378   Mean   :53.11   Mean   :104.46   Mean   : 70736  
+ 3rd Qu.:10.675   3rd Qu.:59.15   3rd Qu.:139.75   3rd Qu.: 81163  
+ Max.   :15.100   Max.   :67.30   Max.   :188.00   Max.   :566432 
+> df1 <- state.x77
+> write.csv(df1,file="C:\data\final\df1")
+エラー: '\d' is an unrecognized escape in character string (<input>:1:24)
+> write.csv(df1,file="C:\\data\\final\\df1.csv")
